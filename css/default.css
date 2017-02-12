@@ -1,5 +1,6 @@
 #navbar {
   background-image: url(/images/1.jpg);
+  background-color: rgba(0,0,0,0.2);
   height:28vh;
 }
 
