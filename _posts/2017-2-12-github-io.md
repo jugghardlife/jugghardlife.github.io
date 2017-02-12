@@ -52,6 +52,7 @@ layout: xxx
 title: xxx
 ---
 ```
+
 没有具体内容也得加上
 
 ```
@@ -72,7 +73,9 @@ defaults:
       layout: "default"
 
 ```
+
 相当于为每个页面都默认设置了布局文件。但是要注意，即使有了这个设置，front matter 部分也不能完全删除。没有内容要设置，也要给一个空的 front matter
+
 ```
 ---
 ---
@@ -91,6 +94,7 @@ layout: post
 #### 片段文件
 
 片段文件_includes,创建一个_includes/xxx.html,写后想在哪个页面中使用就写
+
 ```
 ｛　% inlude xxx.html　｝
 ```
@@ -103,10 +107,12 @@ layout: post
 $ git clone ...
 ｛　% endhighlight %　｝
 ```
+
 上面console在html中就转换为class='language-console'的标签了。
 
 1.
 可以在_config.yml中，添加
+
 ```
 highlighter:pygments
 ```
@@ -116,6 +122,7 @@ highlighter:pygments
 
 3.
 jekyll默认有sass支持的，可以新建一个目录_sass,把需要的sass下载下来，然后创建css/main.scss,然后在其中添加下面代码
+
 ```
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
@@ -128,18 +135,23 @@ jekyll默认有sass支持的，可以新建一个目录_sass,把需要的sass下
  "下载的sass"
 ;
 ```
+
 作用是把下载的sass都导入进来，然后在想添加的页面中淡入<link rel="stylesheet" href="css/main.css">
 
 #### 自带变量
 
 变量的好处，可以在多个地方取出这个值。
+
 ```
 ---
 title:test
 ---
 ```
+
 取出变量的方法
+
 ```
 ｛｛　page.title　｝｝
 ```
+
 以上是今天在创建githun.io中的体会，体会很浅薄，以后要有进一步理解，会不断完善此条微博的。
