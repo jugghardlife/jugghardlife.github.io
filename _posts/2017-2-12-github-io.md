@@ -52,7 +52,7 @@ title: xxx
 ```
 ###布局文件
 
-布局文件_layouts,创建一个_layouts/default.html,布局文件的名字可以任意取，一般都取default.html，在default.html中就放一个页面的骨架，其中关键是在里面添加{{ content }} markdown文件中的信息填充到content中
+布局文件_layouts,创建一个_layouts/default.html,布局文件的名字可以任意取，一般都取default.html，在default.html中就放一个页面的骨架，其中关键是在里面添加 markdown文件中的信息填充到content中
 
 在_config.yml文件中设置
 
