@@ -3,9 +3,10 @@
   height:28vh;
 }
 
-#navbar a {
+#navbar .navbar-inner a {
   color: #fff;
-  margin-top: auto;
+  margin-top: 15vh;
+  text-decoration: none;
 }
 
 .navbar-inner {
