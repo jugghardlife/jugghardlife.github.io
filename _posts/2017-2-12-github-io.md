@@ -21,3 +21,15 @@ title: github.io
 ##个人体会
 
 jekyll的一大作用是，利用markdown解析器可以把写成的markdown文本转变成html。
+
+###markdown 解析器
+默认的markdown转换器是
+```
+markdown: kramdown
+```
+
+默认配置的后缀下面列出的几种
+
+```
+markdown_ext:"markdown,mkdown,mkdn,mkd,md"
+```
