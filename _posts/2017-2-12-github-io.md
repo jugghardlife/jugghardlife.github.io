@@ -17,3 +17,7 @@ title: github.io
 
 ##学习Jekyll的原理了
 想要知道从[https://github.com/happypeter/happypeter.github.com]克隆下来的代码的作用，可以通过这节视频[http://www.haoduoshipin.com/v/113.html]进行了解。
+
+##个人体会
+
+jekyll的一大作用是，利用markdown解析器可以把写成的markdown文本转变成html。
