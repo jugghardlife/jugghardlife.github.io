@@ -1,9 +1,13 @@
 ---
 layout: default
-title: Jugg's Corner
+title: Peter's Corner
 ---
 
-I'm Jugg. The origin of the name, especially when young love to play DOTA, like to play Jugg this hero. February 12, 2017, personal blog began to create, constantly updated.
+Hi there, I am Peter Wang, an [Open Source][oss] enthusiast. This site is
+dedicated to providing information about [me](resume.html) and [what I do](/work).
+
+I am a screencastr at <http://haoduoshipin.com>.
+
 
 <p><br /><b>My Blog:</b></p>
   <ul class="posts">
@@ -16,8 +20,15 @@ I'm Jugg. The origin of the name, especially when young love to play DOTA, like 
 
 <ul>
 
-<li><a href="https://github.com/jugghardlife">Github</a></li>
+<li><a href="http://c2.com/cgi/wiki?PeterWang">Wikiwikiweb</a></li>
+
+<li><a href="http://github.com/happypeter/">Github</a></li>
 
 </ul>
+<p><br /><b>Contact Information:</b></p>
+
+<blockquote>
+欢迎所有朋友加我微信：happypeter1983
+</blockquote>
 
 [oss]:http://en.wikipedia.org/wiki/Open_source

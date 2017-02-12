@@ -3,12 +3,3 @@ layout: post
 title: github.io
 ---
 2017年2月11日初次在github上建立自己的微博，并且在今天初次更新微博，就总结下自己建github微博从中的体会。
-
-#抄微博
-
-##第一步
-到 Github 上创建 yourusername.github.io （注意是 .io 不要写 .com）这个仓库
-##第二步
-拷贝 https://github.com/happypeter/happypeter.github.com 这里的所有的文件，上传到你新建的这个仓库的 master 分支
-##第三步
-到 yourusername.github.io 这个域名下，就可以看到你自己的博客了，但是现在看起来肯定跟peter的 http://happypeter.github.io 是一样的。
