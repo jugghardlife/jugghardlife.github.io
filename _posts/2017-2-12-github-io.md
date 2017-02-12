@@ -12,7 +12,7 @@ title: github.io
 
 ### 第二步
 
-拷贝 ( https://github.com/happypeter/happypeter.github.com ) 这里的所有的文件，上传到你新建的这个仓库的 master 分支
+拷贝 [](https://github.com/happypeter/happypeter.github.com) 这里的所有的文件，上传到你新建的这个仓库的 master 分支
 
 ### 第三步
 
