@@ -33,7 +33,6 @@ markdown: kramdown
 ```
 markdown_ext:"markdown,mkdown,mkdn,mkd,md"
 ```
-
 ###头设置
 
 正文开始之前，一定要加上下面这样的"头设置"(jekyll要求的)。
@@ -45,15 +44,13 @@ title: xxx
 ---
 ```
 没有具体内容也得加上
-
 ```
 ---
 ---
 ```
 ###布局文件
 
-布局文件_layouts,创建一个_layouts/default.html,布局文件的名字可以任意取，一般都取default.html，在default.html中就放一个页面的骨架，其中关键是在里面添加
-｛｛content｝｝  markdown文件中的信息填充到content中
+布局文件_layouts,创建一个_layouts/default.html,布局文件的名字可以任意取，一般都取default.html，在default.html中就放一个页面的骨架，其中关键是在里面添加｛｛ content ｝｝ markdown文件中的信息填充到content中
 
 在_config.yml文件中设置
 
@@ -79,3 +76,59 @@ layout: post
 ```
 
 这样这个页面就使用 post.html 做布局文件了。
+
+###片段文件
+
+片段文件_includes,创建一个_includes/xxx.html,写后想在哪个页面中使用就写
+```
+｛　% inlude xxx.html　｝
+```
+
+###代码高亮
+想使用高亮的效果应该包裹在下面的标签中:
+
+```
+｛　% highlight console %　｝
+$ git clone ...
+｛　% endhighlight %　｝
+```
+上面console在html中就转换为class='language-console'的标签了。
+
+1.
+可以在_config.yml中，添加
+```
+highlighter:pygments
+```
+
+2.
+也可自己找到仔细喜欢的css样式进行覆盖，在html中link 导入就可以啦。
+
+3.
+jekyll默认有sass支持的，可以新建一个目录_sass,把需要的sass下载下来，然后创建css/main.scss,然后在其中添加下面代码
+```
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@Import
+ "下载的sass",
+ "下载的sass"
+;
+```
+作用是把下载的sass都导入进来，然后在想添加的页面中淡入<link rel="stylesheet" href="css/main.css">
+
+###自带变量
+
+变量的好处，可以在多个地方取出这个值。
+```
+---
+title:test
+---
+```
+取出变量的方法
+```
+｛｛　page.title　｝｝
+```
+以上是今天在创建githun.io中的体会，体会很浅薄，以后要有进一步理解，会不断完善此条微博的。
