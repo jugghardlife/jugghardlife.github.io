@@ -4,10 +4,11 @@
 }
 
 #navbar .navbar-inner a {
-  display: block;
-  width: 150px;
-  height: 150px;
-  background-image: url(../images/unnamed.png);
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28vh;
+  text-decoration: none;
 }
 
 .navbar-inner {
