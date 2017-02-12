@@ -1,8 +1,12 @@
 #navbar {
   background-color: #283646;
-  height:30vh;
+  height:28vh;
   color: #fff;
 }
+.navbar-inner {
+  width: 60vw;
+  margin: 0 auto;
+}
 #wrapper {
-  
+
 }
