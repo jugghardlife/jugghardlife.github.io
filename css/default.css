@@ -5,6 +5,10 @@
   height:28vh;
 }
 
+.navbar-color {
+  background-color: rgba(0,0,0,0.3);
+}
+
 #navbar .navbar-inner a {
   text-align: center;
   color: #fff;
