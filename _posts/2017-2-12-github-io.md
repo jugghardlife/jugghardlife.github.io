@@ -33,3 +33,19 @@ markdown: kramdown
 ```
 markdown_ext:"markdown,mkdown,mkdn,mkd,md"
 ```
+
+###头设置
+
+正文开始之前，一定要加上下面这样的"头设置"(jekyll要求的)。
+
+```
+---
+layout: xxx
+title: xxx
+---
+```
+没有具体内容也得加上
+```
+---
+---
+```
