@@ -45,7 +45,36 @@ title: xxx
 ---
 ```
 没有具体内容也得加上
+
 ```
 ---
 ---
 ```
+###布局文件
+
+布局文件_layouts,创建一个_layouts/default.html,布局文件的名字可以任意取，一般都取default.html，在default.html中就放一个页面的骨架，其中关键是在里面添加{{ content }} markdown文件中的信息填充到content中
+
+在_config.yml文件中设置
+
+```
+defaults:
+  -
+    values:
+      layout: "default"
+
+```
+相当于为每个页面都默认设置了布局文件。但是要注意，即使有了这个设置，front matter 部分也不能完全删除。没有内容要设置，也要给一个空的 front matter
+```
+---
+---
+```
+
+另外，个别页面如果不用这个 layout 文件，可以到 front matter 中去覆盖，例如
+
+```
+---
+layout: post
+---
+```
+
+这样这个页面就使用 post.html 做布局文件了。
