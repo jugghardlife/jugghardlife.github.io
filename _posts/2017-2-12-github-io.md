@@ -31,6 +31,7 @@ jekyll的一大作用是，利用markdown解析器可以把写成的markdown文�
 
 #### markdown 解析器
 默认的markdown转换器是
+
 ```
 markdown: kramdown
 ```
@@ -40,6 +41,7 @@ markdown: kramdown
 ```
 markdown_ext:"markdown,mkdown,mkdn,mkd,md"
 ```
+
 #### 头设置
 
 正文开始之前，一定要加上下面这样的"头设置"(jekyll要求的)。
