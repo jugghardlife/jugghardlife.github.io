@@ -10,11 +10,15 @@
 }
 
 #navbar .navbar-inner a {
-  text-align: center;
   color: #fff;
-  font-size: 20px;
-  line-height: 28vh;
   text-decoration: none;
+}
+
+.welcome {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .navbar-inner {
