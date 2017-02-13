@@ -13,6 +13,7 @@
 #navbar .navbar-inner a {
   color: #fff;
   text-decoration: none;
+  padding-top: 2vh;
 }
 
 .welcome {
