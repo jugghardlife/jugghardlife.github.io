@@ -12,8 +12,9 @@
 
 #navbar .navbar-inner a {
   color: #fff;
+  display: block;
   text-decoration: none;
-  margin-top: 5vh;
+  margin-top: 2vh;
 }
 
 .welcome {
