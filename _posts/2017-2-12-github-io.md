@@ -3,7 +3,7 @@ layout: post
 title: github.io
 ---
 2017年2月11日初次在github上建立自己的微博，并且在今天初次更新微博，就总结下自己建github微博从中的体会。
-   
+
 ## 抄微博
 
 ### 第一步
@@ -136,7 +136,11 @@ jekyll默认有sass支持的，可以新建一个目录_sass,把需要的sass下
 ;
 ```
 
-作用是把下载的sass都导入进来，然后在想添加的页面中淡入<link rel="stylesheet" href="css/main.css">
+作用是把下载的sass都导入进来，然后在想添加的页面中淡入
+
+```
+<link rel="stylesheet" href="css/main.css">
+```
 
 #### 自带变量
 
